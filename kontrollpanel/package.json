@@ -1,0 +1,20 @@
+{
+    "name": "strapi-app",
+    "version": "1.0.0",
+    "description": "A Strapi project",
+    "main": "index.js",
+    "scripts": {
+        "develop": "strapi develop",
+        "start": "strapi start",
+        "build": "strapi build",
+        "strapi": "strapi"
+    },
+    "dependencies": {
+        "sqlite3": "^5.0.2",
+        "strapi": "^3.6.11"
+    },
+    "engines": {
+        "node": ">=14.0.0"
+    },
+    "packageManager": "yarn@4.5.0"
+}
